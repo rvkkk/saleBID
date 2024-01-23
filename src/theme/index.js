@@ -1,0 +1,48 @@
+import { extendTheme } from "@chakra-ui/react";
+
+export const theme = extendTheme({
+  fonts: {
+    heading: `'Rubik', sans-serif`,
+    body: `'Rubik', sans-serif`,
+  },
+  colors: {
+    primary: "#0738D2",
+    primaryLight: "#003DFF",
+    primaryLightest: "#E8F0FF",
+    primaryDark: "#0D2F99",
+    primaryHover: "#0736D2D9",
+    inputBg: "rgba(244, 245, 245, 0.75)",
+    borderBg: "rgba(244, 244, 245, 0.75)",
+    naturalDark: "#91929D",
+    naturalDarkest: "#4F5162",
+    naturalBlack: "#23263B",
+    naturalLight: "#D3D4D8",
+    naturalLightest: "#F4F5F5",
+    iconButtonColor: "#9EF4EE",
+    secondaryLight: "#9EF4EE",
+    secondaryColor: "#FF66A9",
+    othersLight: "#F3F7FF",
+    disabled: "#B7D1F7",
+    priceMuted: "#B1B4B7",
+    threeDark: "#D94469",
+    threeLight: "#FFECF0",
+    aboutColor: "#F5F7FF",
+    aboutColor2: "#EAEEF9",
+    bright: "#E7E7E9",
+    Gray30: "#EAEAEB",
+    Lightest: "#F4F5F5",
+    otherError:"#DC3545",
+    grayGreen: "#F3F5F6",
+    secendaryBase: "#69D6CF",
+    cartBack: "#F7F8FA",
+    cardBg: "#F2F6FE",
+    searchBg: "#F82462",
+    contactBannerBg: "#0E085B",
+    secendaryLightest: "#D9FFFC",
+    secendaryDarkest: "#18A2A2",
+    secendaryDark: "#34B9AF",
+    othersLinear: "#FF66A9",
+    linear: "#FFC9E3"
+  },
+  direction: 'rtl'
+});
